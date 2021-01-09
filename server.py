@@ -7,7 +7,7 @@ app = Flask(__name__,
             static_url_path='',
             static_folder='static')
 app.config['SECRET_KEY'] = 'haiii'
-uploadFile = 'static/this.mp4a'
+uploadFile = 'static/this.m4a'
 
 @app.route('/') #create route that's a single slash, this is wat u get: http://127.0.0.1:5000/
 def home():#function associated with this route? delete everyhting in uploads folder

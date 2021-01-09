@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 {%block content%}
 <h2> Display info about MP3 file <3 </h2>
-<audio controls>
-<!--  <source src="uploads/this.mp3" type="audio/mpeg"/> -->
-  <source src= {{ url_for('static', filename='this.mp4a') }} type="audio/mpeg">
-</audio>
+  <audio controls>
+  <!--  <source src="uploads/this.mp3" type="audio/mpeg"/> -->
+    <source src= {{ url_for('static', filename='this.m4a') }} type="audio/mpeg">
+  </audio>
 <!--<p>{{fileContent}}</p>-->
 {% endblock %}
